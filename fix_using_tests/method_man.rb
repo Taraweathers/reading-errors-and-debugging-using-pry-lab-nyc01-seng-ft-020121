@@ -5,7 +5,7 @@ def start_game(player1, player2)
 end
 start_game("Chad", "Brad")
 
-def play_game(player2)
+def play_game(player1, player2)
 puts "#{player1} is better than #{player2}"
 end
 play_game("Chad", "Brad")
