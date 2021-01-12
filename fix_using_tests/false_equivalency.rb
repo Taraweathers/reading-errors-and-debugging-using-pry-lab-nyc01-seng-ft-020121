@@ -4,12 +4,15 @@ def get_user_input
 
 end
 
-def prompt_user
-  puts "What would you like to do?"
-  puts "1.) Eat a hamburger."
+def prompt_user(num)
+puts "What would you like to do?"
+  if num == 1
+    puts "1.) Eat a hamburger."
+  elsif num == 2
   puts "2.) Eat a ham."
 
 end
+prompt_user(1)
 
 
 def selection(num)
