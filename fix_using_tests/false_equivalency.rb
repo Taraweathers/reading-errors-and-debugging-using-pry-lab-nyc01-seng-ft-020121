@@ -10,7 +10,7 @@ puts "What would you like to do?"
     puts "1.) Eat a hamburger."
   elsif num == 2
   puts "2.) Eat a ham."
-
+end
 end
 prompt_user(1)
 
