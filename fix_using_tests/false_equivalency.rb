@@ -20,8 +20,8 @@ elsif num == 2
   puts "HAM HAM HAM IN MY TUMMY"
 end
 binding.pry
-  puts "hello World"
 end
+selection(1)
 
 
 def runner
