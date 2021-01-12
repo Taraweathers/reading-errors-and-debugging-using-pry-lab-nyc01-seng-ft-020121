@@ -7,5 +7,6 @@ start_game("Rocky", "Bullwinkle")
 
 def play_game(player1, player2)
 puts "#{player1} is better than #{player2}"
+"#{player2}"
 end
 play_game("Jay-Z", "Beyonce")
